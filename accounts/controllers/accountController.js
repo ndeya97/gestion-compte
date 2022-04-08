@@ -15,8 +15,10 @@ const account_index = (req, res) => {
 const account_create_post = (req,res) => {
     var newAccount = {
         name: req.body.name,
+        role: req.body.role,
         address: req.body.address,
-        country: req.body.country
+        country: req.body.country,
+        status: req.body.status
     }
     console.log(req.body)
     // Create a new account
