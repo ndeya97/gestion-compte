@@ -8,7 +8,7 @@ Aller sur le répertoire accounts
   ``` cd accounts ```
 
 
- Démarrer le service media
+ Démarrer le service compte
 
  ```npm install```
 
